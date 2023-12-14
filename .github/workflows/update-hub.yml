@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   trigger-hub-update:
-    uses: krishnans2006-classes/actions/.github/workflows/dispatch_hub_update.yml@main
+    uses: krishnans2006-classes/actions/.github/workflows/dispatch-hub-update.yml@main
     with:
       sha: ${{ github.sha }}
       repository: ${{ github.repository }}
